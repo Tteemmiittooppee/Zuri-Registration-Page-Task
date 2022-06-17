@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorial is great, but understanding how developers think is
+          invaluable
+        </p>
+      </div>
+      <div class="aside">
+        <h5>
+          Try it free 7 days
+          <span class="tiny-words">then $20/mo thereafter</span>
+        </h5>
+        <form action="">
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="first-name"
+              value="Jonathan"
+              minlength="8"
+              maxlength="18"
+              placeholder="First Name"
+              required
+            />
+            <span class="error-message">First Name cannot be empty</span>
+          </div>
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="last-name"
+              minlength="7"
+              maxlength="15"
+              placeholder="Last Name"
+              required
+            />
+            <span class="error-message">Last Name cannot be empty</span>
+          </div>
+          <div>
+            <input
+              type="email"
+              id="name"
+              name="last-name"
+              minlength="5"
+              maxlength="20"
+              placeholder="Email Address"
+              required
+            />
+            <span class="error-message">Looks like this is not an email</span>
+          </div>
+          <div>
+            <input
+              class="email"
+              type="password"
+              id="name"
+              name="last-name"
+              minlength="7"
+              maxlength="15"
+              placeholder="Password"
+              required
+            />
+            <span class="error-message">Password cannot be empty</span>
+          </div>
+          <div>
+            <input class="btn" type="submit" value="CLAIM YOUR FREE TRIAL" />
+          </div>
+          <h6>
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </h6>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
